@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(214, 214, 214);
+}
+
+.trigger{
+    width: 200px;
+    height: 200px;
+    border: 20px solid #999;
+    background: #ddd
+}
+
+.element{
+    display:block;
+    background: rgb(13, 13, 39);
+    height: 200px;
+    width: 200px;
+    transition: transform 300ms ease-in-out;
+}
+
+.trigger:hover .element{
+    transform: translate(200px, 150px) rotate(20deg);
+}
