@@ -15,7 +15,9 @@ html{
     height: 200px;
     width: 200px;
     transition: transform 300ms ease-in-out;
+    pointer-events: none;
 }
+
 
 .trigger:hover .element{
     transform: translate(200px, 150px) rotate(20deg);
