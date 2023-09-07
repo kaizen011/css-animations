@@ -18,7 +18,6 @@ html{
     pointer-events: none;
 }
 
-
-.trigger:hover .element{
+.trigger.clicked .element {
     transform: translate(200px, 150px) rotate(20deg);
 }
